@@ -1,0 +1,49 @@
+body {
+	box-sizing: border-box;
+}
+
+#display {
+	font-family: 'Rubik', sans-serif;
+	text-align: right;
+	width: 250px;
+	height: 40px;
+	background-color: white;
+	font-size: 35px;
+	overflow: hidden;
+	border: 3px solid grey;
+	border-radius: 10px;
+	background-color: #fcc979;
+}
+
+#calulator {
+	border: 5px solid grey;
+	border-radius: 25px;
+	padding: 20px;
+	width: 250px;
+	float: left;
+	background-color: #57c5c6;
+}
+
+.buttons {
+	width: 100%;
+	text-align: center;
+
+}
+
+.buttons :hover {
+	background-color: #be7fb4;
+	transition-property: background-color;
+	transition-duration: 0.3s;
+}
+
+.nums {
+	font-family: 'Rubik', sans-serif;
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	margin: 0 0 10px 10px;
+}
+
+.buttons, .nums {
+	background-color: #57c5c6;
+}
